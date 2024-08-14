@@ -496,7 +496,7 @@
     }
 
     .bg-1-mb {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer1.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/trainer1.png');
         background-repeat: no-repeat;
         /* width: 326.67px; */
         height: 272px;
