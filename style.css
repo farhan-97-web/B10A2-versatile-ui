@@ -1,0 +1,623 @@
+@media screen and (min-width:900px) {
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    * {
+
+        font-family: "Inter", sans-serif;
+
+    }
+
+    .list-item {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 4px;
+        gap: 30px;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        border: 1px solid white;
+        border-radius: 39px;
+    }
+
+    .common-bg {
+        background-color: rgb(24, 24, 24);
+        margin: 0 50px;
+
+    }
+
+    .navlogo {
+        color: #E6533C;
+        font-family: "Inter", sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        font-style: italic;
+
+    }
+
+    .home-btn {
+        background-color: #E6533C;
+        border-radius: 39px;
+        padding: 8px 20px 8px 20px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .primary-btn {
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 16px 40px 16px 40px;
+        color: white;
+        border: none;
+    }
+
+    .secondary-btn {
+        border-radius: 42px;
+        background: rgba(230, 83, 60, 0);
+        padding: 16px 40px 16px 40px;
+        color: white;
+        border-color: white;
+    }
+
+    .banner-font {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 78px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .heading {
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 900;
+        letter-spacing: 0%;
+
+    }
+
+    .heading-short {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0%;
+
+    }
+
+    .description {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+
+    }
+
+    .pos-div-top {
+        position: absolute;
+        top: 259px;
+        right: 16px;
+        font-size: 18px;
+        width: 193px;
+        height: 98px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+  
+    .pos-div-parent{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 89px;
+        right: 300px;
+        font-size: 18px;
+        width: 193px;
+        height: 98px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.1);
+        
+        border-radius: 12px;
+    }
+    .color{
+        color: #E6533C;
+    }
+
+    .small-desc {
+        font-size: 13px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+    .centered-content {
+        text-align: center;
+    }
+
+    .circle {
+        border-radius: 50%;
+    }
+
+    .circle-perent {
+        display: flex;
+        text-align: center;
+    }
+
+    .run-extra-img {
+        width: 366px;
+        height: 312px;
+        border-radius: 30px;
+        margin: 30px 0;
+
+    }
+
+    .run-extra-banner {
+        display: flex;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        margin: 62px 0px;
+    }
+
+    .bmi-heading {
+        width: 671px;
+        margin: 0px auto;
+    }
+
+    th,
+    td {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: start;
+    }
+
+    th {
+        color: white;
+    }
+
+    td {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+
+    .bmi-calc-heading {
+        font-size: 28px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+    }
+
+    .bg-1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer1.png');
+        background-repeat: no-repeat;
+        /* width: 326.67px; */
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+    }
+
+    .bg-2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer2.png');
+        background-repeat: no-repeat;
+        /* width: 326.67px; */
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+    }
+
+    .bg-3 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer3.png');
+        background-repeat: no-repeat;
+        /* width: 326.67px; */
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+
+    }
+
+    .bg-4 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer4.png');
+        background-repeat: no-repeat;
+        /* width: 326.67px; */
+        height: 272px;
+        background-size: 100% 100%;
+        border-radius: 18px;
+
+    }
+
+    .bg-5 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer5.png');
+        background-repeat: no-repeat;
+
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+    }
+
+    .bg-6 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer6.png');
+        background-repeat: no-repeat;
+
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+    }
+
+    .meet-team-parent {
+        background: rgba(255, 255, 255, 0.1);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-grow: 1;
+        margin: 0px 20px;
+        padding: 20px;
+        gap: 20px;
+        border-radius: 18px;
+
+    }
+
+    .img-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+        padding-left: 20px;
+    }
+
+    footer {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .footer-logo-area {
+        width: 50%;
+
+    }
+
+    .hr {
+        margin: 20px 50px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .bmi-form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+
+    .inp-fild {
+        width: 100%;
+    }
+
+
+
+    .bmi-chlnge {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+
+
+    }
+
+    .bmi-form-part {
+        width: 50%;
+    }
+
+    .double {
+        grid-column: span 2;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+* {
+    font-family: "Inter", sans-serif;
+
+    /* background-color: rgb(24, 24, 24); */
+}
+
+
+@media screen and (max-width : 576px) {
+    * {
+        max-width: 100vw;
+
+
+    }
+
+    .common-bg-mb {
+        background-color: rgb(24, 24, 24);
+
+    }
+
+    .navlist {
+        display: none;
+
+    }
+
+    .navbar-mb {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(24, 24, 24);
+    }
+
+    .logo-mb {
+        color: #E6533C;
+        font-style: italic;
+    }
+
+    .app-bar {
+        color: white;
+    }
+
+    .banner-mb {
+        background-color: rgb(24, 24, 24);
+    }
+
+    .banner-font-mb {
+        font-size: 2rem;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+    }
+
+    .description-mb {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .primary-btn-mb {
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 16px 40px 16px 40px;
+        color: white;
+        border: none;
+    }
+
+    .secondary-btn-mb {
+        border-radius: 42px;
+        background: rgba(230, 83, 60, 0);
+        padding: 16px 40px 16px 40px;
+        color: white;
+        border-color: white;
+    }
+
+    .banner-btn-mb {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .centered-content-mb {
+        text-align: center;
+        background-color: rgb(24, 24, 24);
+    }
+
+    .heading-mb {
+        font-size: 32px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+    }
+
+    .circle-mb {
+        border-radius: 50%;
+    }
+
+    .circle-perent-mb {
+        text-align: center;
+        background-color: rgb(24, 24, 24);
+    }
+
+    .heading-short-mb {
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+    }
+
+    .run-extra-banner-mb {
+
+        padding: 20px;
+    }
+
+    .run-extra-img-mb {
+        width: 100%;
+        padding-top: 20px;
+        border-radius: 18px;
+    }
+
+    .run-mb {
+        width: 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: start;
+    }
+
+    th {
+        color: white;
+    }
+
+    td {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .bmi-calc-heading-mb {
+        color: white;
+    }
+
+    .bmi-form-mb {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+    }
+
+    .double-mb {
+        grid-column: span 2;
+    }
+
+    .bg-1-mb {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer1.png');
+        background-repeat: no-repeat;
+        /* width: 326.67px; */
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+    }
+
+    .bg-2-mb {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer2.png');
+        background-repeat: no-repeat;
+        /* width: 326.67px; */
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+    }
+
+    .bg-3-mb {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer3.png');
+        background-repeat: no-repeat;
+        /* width: 326.67px; */
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+
+    }
+
+    .bg-4-mb {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer4.png');
+        background-repeat: no-repeat;
+        /* width: 326.67px; */
+        height: 272px;
+        background-size: 100% 100%;
+        border-radius: 18px;
+
+    }
+
+    .bg-5-mb {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer5.png');
+        background-repeat: no-repeat;
+
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+    }
+
+    .bg-6-mb {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/trainer6.png');
+        background-repeat: no-repeat;
+
+        height: 272px;
+        background-size: 100%;
+        border-radius: 18px;
+
+    }
+
+    .img-cont-mb {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+    }
+
+    .meet-team-parent {
+        background: rgba(255, 255, 255, 0.1);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px 0;
+        padding: 20px;
+        gap: 20px;
+        border-radius: 18px;
+
+    }
+    .pos-div-top-mb {
+        position: absolute;
+        top: 436px;
+        right: 16px;
+        font-size: 18px;
+        width: 193px;
+        height: 98px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .pos-div-parent-mb{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 89px;
+        right: 228px;
+        font-size: 18px;
+        width: 193px;
+        height: 98px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.1);
+        
+        border-radius: 12px;
+    }
+    .color{
+        color: #E6533C;
+    }
+
+    .small-desc {
+        font-size: 13px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+
+
+
+
+
+
+
+
+}
